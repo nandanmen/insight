@@ -1,0 +1,15 @@
+{
+    "title": "Invalid COLUMNS type: COLUMNS array cannot have duplicate keys",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": ["courses_id", "courses_id"]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

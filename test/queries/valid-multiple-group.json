@@ -1,0 +1,98 @@
+{
+    "title": "valid-multiple-group",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 98
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title",
+                "courses_instructor"
+            ]
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_title",
+                "courses_instructor"
+            ],
+            "APPLY": []
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_title": "career planning",
+            "courses_instructor": "cox, daniel"
+        },
+        {
+            "courses_title": "multimedia sys",
+            "courses_instructor": "coria, lino"
+        },
+        {
+            "courses_title": "multimedia sys",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "assess lrn diffi",
+            "courses_instructor": "cole, kenneth"
+        },
+        {
+            "courses_title": "assess lrn diffi",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "educ stds autism",
+            "courses_instructor": "grow, laura"
+        },
+        {
+            "courses_title": "educ stds autism",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dev el sk df&hrd",
+            "courses_instructor": "cannon, joanna"
+        },
+        {
+            "courses_title": "dev el sk df&hrd",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "algb topology i",
+            "courses_instructor": "gomez, jose"
+        },
+        {
+            "courses_title": "algb topology i",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "cl pro prim care",
+            "courses_instructor": "brew, nancy"
+        },
+        {
+            "courses_title": "cl pro prim care",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "cl pro prim care",
+            "courses_instructor": "krist, jennifer"
+        },
+        {
+            "courses_title": "fam nrs pract",
+            "courses_instructor": "burrows, marlene;harding, jillian;krist, jennifer;mccuaig, fairleth"
+        },
+        {
+            "courses_title": "fam nrs pract",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "work int health",
+            "courses_instructor": "frank, erica"
+        },
+        {
+            "courses_title": "work int health",
+            "courses_instructor": ""
+        }
+    ]
+}

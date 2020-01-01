@@ -1,0 +1,68 @@
+{
+    "title": "valid-apply-count",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 98
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_id",
+                "counts"
+            ]
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_dept",
+                "courses_id"
+            ],
+            "APPLY": [
+                {
+                    "counts": {
+                        "COUNT": "courses_uuid"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_id": "574",
+            "counts": 1
+        },
+        {
+            "courses_id": "541",
+            "counts": 2
+        },
+        {
+            "courses_id": "421",
+            "counts": 3
+        },
+        {
+            "courses_id": "449",
+            "counts": 5
+        },
+        {
+            "courses_id": "519",
+            "counts": 2
+        },
+        {
+            "courses_id": "527",
+            "counts": 2
+        },
+        {
+            "courses_id": "509",
+            "counts": 4
+        },
+        {
+            "courses_id": "578",
+            "counts": 4
+        },
+        {
+            "courses_id": "300",
+            "counts": 2
+        }
+    ]
+}

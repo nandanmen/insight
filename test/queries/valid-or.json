@@ -1,0 +1,229 @@
+{
+  "title": "Valid OR",
+  "query": {
+    "WHERE": {
+      "OR": [
+        {
+          "GT": {
+            "courses_avg": 98
+          }
+        },
+        {
+          "GT": {
+            "courses_pass": 2000
+          }
+        }
+      ]
+    },
+    "OPTIONS": {
+      "COLUMNS": [
+        "courses_dept",
+        "courses_id"
+      ],
+      "ORDER": "courses_dept"
+    }
+  },
+  "isQueryValid": true,
+  "result": [
+      {
+        "courses_dept": "cnps",
+        "courses_id": "574"
+      },
+      {
+        "courses_dept": "econ",
+        "courses_id": "101"
+      },
+      {
+        "courses_dept": "econ",
+        "courses_id": "101"
+      },
+      {
+        "courses_dept": "econ",
+        "courses_id": "101"
+      },
+      {
+        "courses_dept": "econ",
+        "courses_id": "101"
+      },
+      {
+        "courses_dept": "econ",
+        "courses_id": "101"
+      },
+      {
+        "courses_dept": "econ",
+        "courses_id": "101"
+      },
+      {
+        "courses_dept": "econ",
+        "courses_id": "101"
+      },
+      {
+        "courses_dept": "econ",
+        "courses_id": "101"
+      },
+      {
+        "courses_dept": "econ",
+        "courses_id": "102"
+      },
+      {
+        "courses_dept": "econ",
+        "courses_id": "102"
+      },
+      {
+        "courses_dept": "econ",
+        "courses_id": "102"
+      },
+      {
+        "courses_dept": "econ",
+        "courses_id": "102"
+      },
+      {
+        "courses_dept": "eece",
+        "courses_id": "541"
+      },
+      {
+        "courses_dept": "eece",
+        "courses_id": "541"
+      },
+      {
+        "courses_dept": "engl",
+        "courses_id": "112"
+      },
+      {
+        "courses_dept": "engl",
+        "courses_id": "112"
+      },
+      {
+        "courses_dept": "engl",
+        "courses_id": "112"
+      },
+      {
+        "courses_dept": "engl",
+        "courses_id": "112"
+      },
+      {
+        "courses_dept": "engl",
+        "courses_id": "112"
+      },
+      {
+        "courses_dept": "engl",
+        "courses_id": "112"
+      },
+      {
+        "courses_dept": "engl",
+        "courses_id": "112"
+      },
+      {
+        "courses_dept": "engl",
+        "courses_id": "112"
+      },
+      {
+        "courses_dept": "eosc",
+        "courses_id": "114"
+      },
+      {
+        "courses_dept": "eosc",
+        "courses_id": "114"
+      },
+      {
+        "courses_dept": "epse",
+        "courses_id": "421"
+      },
+      {
+        "courses_dept": "epse",
+        "courses_id": "421"
+      },
+      {
+        "courses_dept": "epse",
+        "courses_id": "421"
+      },
+      {
+        "courses_dept": "epse",
+        "courses_id": "449"
+      },
+      {
+        "courses_dept": "epse",
+        "courses_id": "449"
+      },
+      {
+        "courses_dept": "epse",
+        "courses_id": "449"
+      },
+      {
+        "courses_dept": "epse",
+        "courses_id": "449"
+      },
+      {
+        "courses_dept": "epse",
+        "courses_id": "449"
+      },
+      {
+        "courses_dept": "epse",
+        "courses_id": "519"
+      },
+      {
+        "courses_dept": "epse",
+        "courses_id": "519"
+      },
+      {
+        "courses_dept": "math",
+        "courses_id": "527"
+      },
+      {
+        "courses_dept": "math",
+        "courses_id": "527"
+      },
+      {
+        "courses_dept": "nurs",
+        "courses_id": "509"
+      },
+      {
+        "courses_dept": "nurs",
+        "courses_id": "509"
+      },
+      {
+        "courses_dept": "nurs",
+        "courses_id": "509"
+      },
+      {
+        "courses_dept": "nurs",
+        "courses_id": "509"
+      },
+      {
+        "courses_dept": "nurs",
+        "courses_id": "578"
+      },
+      {
+        "courses_dept": "nurs",
+        "courses_id": "578"
+      },
+      {
+        "courses_dept": "nurs",
+        "courses_id": "578"
+      },
+      {
+        "courses_dept": "nurs",
+        "courses_id": "578"
+      },
+      {
+        "courses_dept": "psyc",
+        "courses_id": "101"
+      },
+      {
+        "courses_dept": "psyc",
+        "courses_id": "102"
+      },
+      {
+        "courses_dept": "psyc",
+        "courses_id": "102"
+      },
+      {
+        "courses_dept": "spph",
+        "courses_id": "300"
+      },
+      {
+        "courses_dept": "spph",
+        "courses_id": "300"
+      }
+    ]
+}

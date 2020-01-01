@@ -1,0 +1,21 @@
+{
+    "title": "Invalid query: Multiple filter keys",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 97,
+                "courses_pass": 100
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        },
+        "EXTRA": "hi!"
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

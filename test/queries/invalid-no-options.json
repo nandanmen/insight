@@ -1,0 +1,8 @@
+{
+    "title": "Invalid query: No OPTIONS block",
+    "query": {
+        "WHERE": {}
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

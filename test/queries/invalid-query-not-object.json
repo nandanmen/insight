@@ -1,0 +1,14 @@
+{
+    "title": "Very invalid query",
+    "query": {
+        "WHERE": [],
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

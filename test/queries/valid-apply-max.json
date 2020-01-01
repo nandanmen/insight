@@ -1,0 +1,103 @@
+{
+    "title": "valid-apply-max",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_dept": "a*"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "maxAvg"
+            ]
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_dept"
+            ],
+            "APPLY": [
+                {
+                    "maxAvg": {
+                        "MAX": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "aanb",
+            "maxAvg": 94.44
+        },
+        {
+            "courses_dept": "adhe",
+            "maxAvg": 96.11
+        },
+        {
+            "courses_dept": "anat",
+            "maxAvg": 92
+        },
+        {
+            "courses_dept": "anth",
+            "maxAvg": 92.29
+        },
+        {
+            "courses_dept": "apbi",
+            "maxAvg": 91.86
+        },
+        {
+            "courses_dept": "appp",
+            "maxAvg": 85.16
+        },
+        {
+            "courses_dept": "apsc",
+            "maxAvg": 96
+        },
+        {
+            "courses_dept": "arbc",
+            "maxAvg": 83.13
+        },
+        {
+            "courses_dept": "arch",
+            "maxAvg": 90
+        },
+        {
+            "courses_dept": "arcl",
+            "maxAvg": 80.82
+        },
+        {
+            "courses_dept": "arst",
+            "maxAvg": 96.94
+        },
+        {
+            "courses_dept": "arth",
+            "maxAvg": 93
+        },
+        {
+            "courses_dept": "asia",
+            "maxAvg": 86.24
+        },
+        {
+            "courses_dept": "asic",
+            "maxAvg": 80.79
+        },
+        {
+            "courses_dept": "astr",
+            "maxAvg": 91.4
+        },
+        {
+            "courses_dept": "astu",
+            "maxAvg": 83.14
+        },
+        {
+            "courses_dept": "atsc",
+            "maxAvg": 92
+        },
+        {
+            "courses_dept": "audi",
+            "maxAvg": 96.9
+        }
+    ]
+}

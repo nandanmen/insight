@@ -1,0 +1,12 @@
+{
+    "title": "Invalid query: Key in ORDER does not exist in COLUMNS",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": ["courses_dept", "courses_avg"],
+            "ORDER": "courses_id"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

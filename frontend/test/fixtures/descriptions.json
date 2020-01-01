@@ -1,0 +1,9 @@
+{
+    "query1": "simple query IS comparison for department with two columns and old order syntax",
+    "query2": "complex query with GROUP, TRANSFORMATIONS and ORDER",
+    "query3": "query with multiple filters wrapped in AND",
+    "complex-order": "query with complex order field",
+    "transform-order": "query with order field in transformations",
+    "not": "query with not at root",
+    "simple-not": "query with one not filter"
+}

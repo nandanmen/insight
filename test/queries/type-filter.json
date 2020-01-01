@@ -1,0 +1,13 @@
+{
+    "title": "Invalid FILTER type",
+    "query": {
+        "WHERE": {
+            "RIP": "Hello"
+        },
+        "OPTIONS": {
+            "COLUMNS": ["courses_dept"]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

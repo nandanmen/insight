@@ -1,0 +1,17 @@
+{
+  "title": "Invalid SCOMPARISON type: Value is not a string",
+  "query": {
+    "WHERE": {
+      "IS": {
+        "courses_id": 1234
+      }
+    },
+    "OPTIONS": {
+      "COLUMNS": [
+        "courses_dept"
+      ]
+    }
+  },
+  "isQueryValid": false,
+  "result": "InsightError"
+}

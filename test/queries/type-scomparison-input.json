@@ -1,0 +1,17 @@
+{
+  "title": "Invalid SCOMPARISON type: Asterisks cannot be in middle of input",
+  "query": {
+    "WHERE": {
+      "IS": {
+        "courses_dept": "cp*c"
+      }
+    },
+    "OPTIONS": {
+      "COLUMNS": [
+        "courses_dept"
+      ]
+    }
+  },
+  "isQueryValid": false,
+  "result": "InsightError"
+}

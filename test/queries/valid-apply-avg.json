@@ -1,0 +1,78 @@
+{
+    "title": "valid-apply-avg",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 98
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id",
+                "overallAvg"
+            ]
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_dept",
+                "courses_id"
+            ],
+            "APPLY": [
+                {
+                    "overallAvg": {
+                        "AVG": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "cnps",
+            "courses_id": "574",
+            "overallAvg": 99.19
+        },
+        {
+            "courses_dept": "eece",
+            "courses_id": "541",
+            "overallAvg": 98.75
+        },
+        {
+            "courses_dept": "epse",
+            "courses_id": "421",
+            "overallAvg": 98.38
+        },
+        {
+            "courses_dept": "epse",
+            "courses_id": "449",
+            "overallAvg": 98.7
+        },
+        {
+            "courses_dept": "epse",
+            "courses_id": "519",
+            "overallAvg": 98.45
+        },
+        {
+            "courses_dept": "math",
+            "courses_id": "527",
+            "overallAvg": 99.78
+        },
+        {
+            "courses_dept": "nurs",
+            "courses_id": "509",
+            "overallAvg": 98.46
+        },
+        {
+            "courses_dept": "nurs",
+            "courses_id": "578",
+            "overallAvg": 98.54
+        },
+        {
+            "courses_dept": "spph",
+            "courses_id": "300",
+            "overallAvg": 98.98
+        }
+    ]
+}

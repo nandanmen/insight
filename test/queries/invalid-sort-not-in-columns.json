@@ -1,0 +1,21 @@
+{
+    "title": "Invalid ORDER keys: Not in COLUMNS",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 70
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title"
+            ],
+            "ORDER": {
+                "dir": "UP",
+                "keys": ["courses_avg"]
+            }
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

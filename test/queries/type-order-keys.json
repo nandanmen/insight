@@ -1,0 +1,21 @@
+{
+    "title": "Syntax Error: Invalid SORT keys",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 70
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title"
+            ],
+            "ORDER": {
+                "dir": "LEFT",
+                "keys": {}
+            }
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

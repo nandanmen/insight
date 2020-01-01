@@ -1,0 +1,13 @@
+{
+  "title": "Invalid LOGICCOMPARISON type: Array is empty",
+  "query": {
+    "WHERE": {
+      "AND": []
+    },
+    "OPTIONS": {
+      "COLUMNS": ["courses_dept"]
+    }
+  },
+  "isQueryValid": false,
+  "result": "InsightError"
+}

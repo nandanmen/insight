@@ -1,0 +1,17 @@
+{
+  "title": "Invalid SCOMPARISON type: Key is not an skey",
+  "query": {
+    "WHERE": {
+      "IS": {
+        "courses_avg": "A"
+      }
+    },
+    "OPTIONS": {
+      "COLUMNS": [
+        "courses_dept"
+      ]
+    }
+  },
+  "isQueryValid": false,
+  "result": "InsightError"
+}

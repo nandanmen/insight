@@ -1,0 +1,109 @@
+{
+    "title": "valid-order-down",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_dept": "a*"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "minAvg"
+            ],
+            "ORDER": {
+                "dir": "DOWN",
+                "keys": [
+                    "minAvg"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_dept"
+            ],
+            "APPLY": [
+                {
+                    "minAvg": {
+                        "MIN": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "aanb",
+            "minAvg": 87.83
+        },
+        {
+            "courses_dept": "anat",
+            "minAvg": 80.28
+        },
+        {
+            "courses_dept": "appp",
+            "minAvg": 77.99
+        },
+        {
+            "courses_dept": "arbc",
+            "minAvg": 75.4
+        },
+        {
+            "courses_dept": "arst",
+            "minAvg": 73.56
+        },
+        {
+            "courses_dept": "arch",
+            "minAvg": 73
+        },
+        {
+            "courses_dept": "asic",
+            "minAvg": 71.27
+        },
+        {
+            "courses_dept": "atsc",
+            "minAvg": 69.25
+        },
+        {
+            "courses_dept": "adhe",
+            "minAvg": 67.5
+        },
+        {
+            "courses_dept": "arth",
+            "minAvg": 66.38
+        },
+        {
+            "courses_dept": "arcl",
+            "minAvg": 64.5
+        },
+        {
+            "courses_dept": "astu",
+            "minAvg": 63.14
+        },
+        {
+            "courses_dept": "audi",
+            "minAvg": 62.63
+        },
+        {
+            "courses_dept": "astr",
+            "minAvg": 62.5
+        },
+        {
+            "courses_dept": "anth",
+            "minAvg": 60.05
+        },
+        {
+            "courses_dept": "apsc",
+            "minAvg": 57.68
+        },
+        {
+            "courses_dept": "asia",
+            "minAvg": 57.33
+        },
+        {
+            "courses_dept": "apbi",
+            "minAvg": 52.08
+        }
+    ]
+}

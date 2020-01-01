@@ -1,0 +1,16 @@
+{
+    "title": "Invalid ORDER type",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": ["courses_dept"],
+            "ORDER": 5
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

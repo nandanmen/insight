@@ -1,0 +1,15 @@
+{
+    "title": "Invalid COLUMNS type: COLUMNS array must contain valid keys",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": ["abcd"]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

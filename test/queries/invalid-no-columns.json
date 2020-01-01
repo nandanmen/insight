@@ -1,0 +1,9 @@
+{
+    "title": "Invalid query: No COLUMNS block",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {}
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

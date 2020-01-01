@@ -1,0 +1,19 @@
+{
+    "title": "Invalid query: WHERE can only have at most one filter",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 97
+            },
+            "IS": {
+                "courses_dept": "cpsc"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": ["courses_dept", "courses_avg"],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

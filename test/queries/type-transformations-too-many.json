@@ -1,0 +1,28 @@
+{
+    "title": "Syntax Error: Invalid TRANSFORMATIONS -- Too many keys",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 70
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title"
+            ]
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": ["courses_title"],
+            "APPLY": [
+                {
+                    "coursesAvg": {
+                        "AVG": "courses_avg"
+                    }
+                }
+            ],
+            "EXTRA": "hi"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

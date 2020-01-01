@@ -1,0 +1,20 @@
+{
+    "title": "Syntax Error: Missing dir in ORDER",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 70
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title"
+            ],
+            "ORDER": {
+                "keys": ["courses_title"]
+            }
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

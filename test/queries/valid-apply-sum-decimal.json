@@ -1,0 +1,78 @@
+{
+    "title": "valid-apply-sum-decimal",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 98
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id",
+                "avgSum"
+            ]
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_dept",
+                "courses_id"
+            ],
+            "APPLY": [
+                {
+                    "avgSum": {
+                        "SUM": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "cnps",
+            "courses_id": "574",
+            "avgSum": 99.19
+        },
+        {
+            "courses_dept": "eece",
+            "courses_id": "541",
+            "avgSum": 197.5
+        },
+        {
+            "courses_dept": "epse",
+            "courses_id": "421",
+            "avgSum": 295.14
+        },
+        {
+            "courses_dept": "epse",
+            "courses_id": "449",
+            "avgSum": 493.48
+        },
+        {
+            "courses_dept": "epse",
+            "courses_id": "519",
+            "avgSum": 196.9
+        },
+        {
+            "courses_dept": "math",
+            "courses_id": "527",
+            "avgSum": 199.56
+        },
+        {
+            "courses_dept": "nurs",
+            "courses_id": "509",
+            "avgSum": 393.84
+        },
+        {
+            "courses_dept": "nurs",
+            "courses_id": "578",
+            "avgSum": 394.16
+        },
+        {
+            "courses_dept": "spph",
+            "courses_id": "300",
+            "avgSum": 197.96
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "title": "Invalid query: Keys in COLUMNS must reference the same dataset",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": ["test_dept", "courses_avg"]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

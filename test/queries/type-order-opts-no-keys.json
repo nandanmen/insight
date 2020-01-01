@@ -1,0 +1,20 @@
+{
+    "title": "Syntax Error: Missing keys in ORDER",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 70
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title"
+            ],
+            "ORDER": {
+                "dir": "UP"
+            }
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

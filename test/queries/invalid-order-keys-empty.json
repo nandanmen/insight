@@ -1,0 +1,21 @@
+{
+    "title": "Invalid ORDER: Keys empty",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 70
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title"
+            ],
+            "ORDER": {
+                "dir": "UP",
+                "keys": []
+            }
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

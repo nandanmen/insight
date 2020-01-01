@@ -1,0 +1,21 @@
+{
+    "title": "Invalid key: Not a COURSES key",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_seats": 70
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title"
+            ],
+            "ORDER": {
+                "dir": "UP",
+                "keys": ["courses_title"]
+            }
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Syntax Error: Invalid TRANSFORMATIONS -- missing APPLY",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 70
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title"
+            ]
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_title"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

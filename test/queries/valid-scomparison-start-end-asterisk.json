@@ -1,0 +1,423 @@
+{
+  "title": "Valid IS asterisk at start and end",
+  "query": {
+    "WHERE": {
+      "AND": [
+        {
+          "IS": {
+            "courses_dept": "*cp*"
+          }
+        },
+        {
+          "EQ": {
+            "courses_year": 2015
+          }
+        }
+      ]
+    },
+    "OPTIONS": {
+      "COLUMNS": [
+        "courses_dept"
+      ]
+    }
+  },
+  "isQueryValid": true,
+  "result": [
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpen"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "cpsc"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    },
+    {
+      "courses_dept": "edcp"
+    }
+  ]
+}

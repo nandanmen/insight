@@ -1,0 +1,17 @@
+{
+    "title": "Invalid query: Cannot have keys other than WHERE and OPTIONS",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": ["courses_dept", "courses_avg"],
+            "ORDER": "courses_avg"
+        },
+        "EXTRA": "hi!"
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

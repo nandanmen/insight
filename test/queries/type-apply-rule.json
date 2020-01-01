@@ -1,0 +1,23 @@
+{
+    "title": "Syntax Error: Invalid APPLYRULE",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 70
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title"
+            ]
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_title"
+            ],
+            "APPLY": ["overallAvg"]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Invalid MCOMPARISON type: Key is not an mkey",
+  "query": {
+    "WHERE": {
+      "GT": {
+        "courses_avg": "a"
+      }
+    },
+    "OPTIONS": {
+      "COLUMNS": [
+        "courses_dept"
+      ]
+    }
+  },
+  "isQueryValid": false,
+  "result": "InsightError"
+}

@@ -1,0 +1,16 @@
+{
+    "title": "Invalid query: Specified dataset does not exist",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "test_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": ["test_dept", "test_avg"],
+            "ORDER": "test_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

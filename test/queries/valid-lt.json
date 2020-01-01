@@ -1,0 +1,192 @@
+{
+  "title": "Valid LT",
+  "query": {
+    "WHERE": {
+      "AND": [
+        {
+          "LT": {
+            "courses_avg": 80
+          }
+        },
+        {
+          "AND": [
+            {
+              "IS": {
+                "courses_dept": "cpsc"
+              }
+            },
+            {
+              "EQ": {
+                "courses_year": 2015
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "OPTIONS": {
+      "COLUMNS": [
+        "courses_id"
+      ]
+    }
+  },
+  "isQueryValid": true,
+    "result": [
+      {
+        "courses_id": "110"
+      },
+      {
+        "courses_id": "110"
+      },
+      {
+        "courses_id": "110"
+      },
+      {
+        "courses_id": "110"
+      },
+      {
+        "courses_id": "110"
+      },
+      {
+        "courses_id": "110"
+      },
+      {
+        "courses_id": "110"
+      },
+      {
+        "courses_id": "121"
+      },
+      {
+        "courses_id": "121"
+      },
+      {
+        "courses_id": "121"
+      },
+      {
+        "courses_id": "121"
+      },
+      {
+        "courses_id": "210"
+      },
+      {
+        "courses_id": "210"
+      },
+      {
+        "courses_id": "210"
+      },
+      {
+        "courses_id": "210"
+      },
+      {
+        "courses_id": "210"
+      },
+      {
+        "courses_id": "210"
+      },
+      {
+        "courses_id": "213"
+      },
+      {
+        "courses_id": "213"
+      },
+      {
+        "courses_id": "213"
+      },
+      {
+        "courses_id": "221"
+      },
+      {
+        "courses_id": "221"
+      },
+      {
+        "courses_id": "221"
+      },
+      {
+        "courses_id": "221"
+      },
+      {
+        "courses_id": "259"
+      },
+      {
+        "courses_id": "261"
+      },
+      {
+        "courses_id": "302"
+      },
+      {
+        "courses_id": "303"
+      },
+      {
+        "courses_id": "304"
+      },
+      {
+        "courses_id": "304"
+      },
+      {
+        "courses_id": "310"
+      },
+      {
+        "courses_id": "312"
+      },
+      {
+        "courses_id": "313"
+      },
+      {
+        "courses_id": "313"
+      },
+      {
+        "courses_id": "314"
+      },
+      {
+        "courses_id": "314"
+      },
+      {
+        "courses_id": "317"
+      },
+      {
+        "courses_id": "317"
+      },
+      {
+        "courses_id": "320"
+      },
+      {
+        "courses_id": "320"
+      },
+      {
+        "courses_id": "320"
+      },
+      {
+        "courses_id": "322"
+      },
+      {
+        "courses_id": "322"
+      },
+      {
+        "courses_id": "344"
+      },
+      {
+        "courses_id": "410"
+      },
+      {
+        "courses_id": "415"
+      },
+      {
+        "courses_id": "420"
+      },
+      {
+        "courses_id": "421"
+      },
+      {
+        "courses_id": "422"
+      },
+      {
+        "courses_id": "425"
+      },
+      {
+        "courses_id": "430"
+      },
+      {
+        "courses_id": "444"
+      }
+    ]
+}
